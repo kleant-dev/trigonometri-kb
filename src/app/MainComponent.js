@@ -208,6 +208,7 @@ function MainComponent() {
         handleGraphRadianChange={handleGraphRadianChange}
         updateCount={updateCount}
       />
+      <p>Kleant Bajraktari </p>
     </div>
   );
 }
