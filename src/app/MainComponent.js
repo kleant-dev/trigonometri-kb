@@ -208,7 +208,6 @@ function MainComponent() {
         handleGraphRadianChange={handleGraphRadianChange}
         updateCount={updateCount}
       />
-      <DynamicComponentWithNoSSR />
     </div>
   );
 }
