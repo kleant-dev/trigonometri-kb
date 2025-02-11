@@ -76,7 +76,7 @@ function SettingsMenu(props) {
           />
         </label>
         <label>
-          csc:
+          cosec:
           <input
             id="csc-checkbox"
             type="checkbox"
