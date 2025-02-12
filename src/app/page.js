@@ -7,7 +7,11 @@ const DynamicComponentWithNoSSR = dynamic(() => import("./MainComponent"), {
 });
 
 function Home() {
-  return <DynamicComponentWithNoSSR />;
+  return (
+    <>
+      <DynamicComponentWithNoSSR />
+    </>
+  );
 }
 
 export default Home;

@@ -33,10 +33,6 @@ function MainComponent() {
   });
   const [updateCount, setUpdateCount] = useState(0);
 
-  useEffect(() => {
-    document.title = "Trig Assist";
-  }, []);
-
   const updateTrigValues = (radians) => {
     setTrigValues({
       cos: Math.cos(radians).toFixed(5),
